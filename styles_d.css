@@ -423,7 +423,7 @@ a {
 }
 
 .about_title {
-  width: 60%;
+  width: 70%;
   display: block;
   color: #ec5242;
   font-size: 5vw;
@@ -971,7 +971,7 @@ a {
   .about_title {
     display: block;
     color: #ec5242;
-    font-size: 7vw;
+    font-size: 6.5vw;
     font-weight: 900;
     text-align: center;
     margin-bottom: 15px;
