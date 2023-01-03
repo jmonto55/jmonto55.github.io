@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  box-shadow: 0 6px 12px 4px rgba(0, 0, 0, 0.18);
+}
+
+a {
+  text-decoration: none;
+}
+
+.above_header {
+  width: 100%;
+  background-color: #272a31;
+}
+
+.nav_var_mobile {
+  display: none;
+}
+
+.above_header_list {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  padding: 10px;
+  margin-right: 7.2%;
+  align-items: center;
+}
+
+.above_list_link {
+  color: #fff;
+  margin-right: 20px;
+  font-size: 15px;
+}
+
+.above_list_link:hover {
+  color: rgba(255, 255, 255, 0.575);
+}
+
+.fb_icon_above {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(./assets/icons/facebook_logo.png);
+  background-size: cover;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.tt_icon_above {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url(./assets/icons/twitter_logo.png);
+  background-size: cover;
+  margin-right: 35px;
+  cursor: pointer;
+}
+
+.nav_var {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 0.9%;
+}
+
+.nav_var_list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-right: 8%;
+}
+
+.nav_list_link {
+  margin-right: 20px;
+  color: black;
+  transition: ease all 0.4s;
+  padding: 10px;
+}
+
+.nav_list_link:hover {
+  color: #ec5242;
+}
+
+.register {
+  color: black;
+  border: solid #ec5242 2px;
+  padding: 10px;
+  text-align: center;
+  margin: 0;
+}
+
+.nav_image {
+  display: inline-block;
+  width: 198px;
+  height: 34px;
+  background-image: url(./assets/icons/biotech_logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 50px;
+}
+
+.home_section {
+  width: 100%;
+  height: 100vh;
+  background: url(./assets/images/home_background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.welcome_container {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.925);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 5%;
+  padding-top: 12.5%;
+}
+
+.headline_one {
+  color: #ec5242;
+  font-size: 3.5vw;
+  font-weight: 300;
+}
+
+.headline_two {
+  background-image: url(./assets/images/background_r.jpg);
+  display: block;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 5.2vw;
+  font-weight: 900;
+  max-width: 1700px;
+}
+
+.headline_text {
+  width: 80%;
+  max-width: 1200px;
+  font-size: 22px;
+  padding: 20px;
+  margin: 15px 0 25px 0;
+  border: solid #fff;
+  color: #3e3e3e;
+  background-color: #f7f7f7;
+}
+
+.headline_date {
+  font-size: 30px;
+  font-weight: 900;
+  color: #3e3e3e;
+  margin-bottom: 10px;
+}
+
+.headline_site {
+  color: #3e3e3e;
+}
+
+.program_section {
+  width: 100%;
+  height: 700px;
+  background-image: url(./assets/images/background_program.jpeg);
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.progam_section_title {
+  color: #fff;
+  width: 160px;
+  padding-bottom: 10px;
+  text-align: center;
+  margin-top: 28px;
+}
+
+.program_line {
+  width: 30px;
+  border-color: #ec5242;
+}
+
+.program_container {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.program_container_child {
+  max-width: 300px;
+  background-color: rgba(255, 255, 255, 0.178);
+  margin: 5px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 48px;
+  transition: ease all 0.5s;
+  cursor: pointer;
+}
+
+.program_container_child:hover {
+  transform: scale(1.04);
+  border: solid #fff 1px;
+}
+
+.program_title {
+  color: #ec5242;
+  margin: 15px 0 15px 0;
+}
+
+.program_text {
+  color: #fff;
+}
+
+.program_section_footer {
+  color: #fff;
+  border-bottom: solid #fff 1px;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+.program_section_footer_m {
+  display: none;
+}
+
+.ponents_icon {
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  background-image: url(./assets/icons/ponents_icon.png);
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.exhibition_icon {
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  background-image: url(./assets/icons/exhibition_icon.png);
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.forum_icon {
+  display: inline-block;
+  width: 60px;
+  height: 55px;
+  background-image: url(./assets/icons/forum_icon.png);
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.workshop_icon {
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  background-image: url(./assets/icons/workshop_icon.png);
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.network_icon {
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  background-image: url(./assets/icons/network_icon.png);
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.speakers_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.speakers_sections_title {
+  width: 100%;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.speakers_line {
+  width: 30px;
+  border-color: #ec5242;
+}
+
+.speakers_container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3%;
+  justify-content: center;
+}
+
+.speaker {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 38px;
+  text-align: left;
+}
+
+.speaker_img_container {
+  position: relative;
+}
+
+.speaker_img {
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+
+.speaker_background {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: -15px;
+  top: -15px;
+}
+
+.speaker_info {
+  width: 50%;
+  padding-left: 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.speaker_name {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.speaker_title {
+  color: #ec5242;
+  margin-bottom: 5px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.speaker_line {
+  width: 20px;
+  margin-bottom: 7px;
+}
+
+.partners_container {
+  width: 100%;
+  height: auto;
+  background-color: #272a31;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partners {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.pr {
+  height: 35px;
+  display: inline-block;
+  margin: 15px;
+  margin-top: 24px;
+}
+
+.last_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 4%;
+}
+
+.footer_logo {
+  display: inline-block;
+  width: 30%;
+  height: 34px;
+  background-image: url(./assets/icons/biotech_logo_black.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 40px;
+}
+
+.last_footer p {
+  width: 60%;
+}
+
+/* About Me Page */
+.about_container {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.925);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  padding-top: 10%;
+}
+
+.about_title {
+  color: #ec5242;
+  font-size: 5vw;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.about_line {
+  width: 25px;
+  border-color: #ec53426c;
+}
+
+.about_text {
+  max-width: 80%;
+  font-size: 22px;
+  line-height: 150%;
+  padding: 40px;
+  margin: 15px 0 25px 0;
+  border: solid #fff;
+  color: #3e3e3e;
+  background-color: rgb(243, 243, 243);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about_mail {
+  font-size: 20px;
+  margin-top: 12px;
+}
+
+.logo_section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+  border-top: solid #f1f1f1 2px;
+}
+
+.logo_title {
+  margin: 20px;
+}
+
+.logo_text {
+  margin: 20px;
+  width: 60%;
+  text-align: center;
+}
+
+.logo_container {
+  padding: 5%;
+  border: solid #d3d3d3 2px;
+  margin: 24px;
+}
+
+.logo {
+  width: 50vw;
+  max-width: 400px;
+}
+
+.past_img_container {
+  display: flex;
+  justify-content: space-around;
+  min-width: 760px;
+  width: 60%;
+  margin: 48px 0;
+}
+
+.past_img_one {
+  width: 350px;
+  background-image: url(./assets/images/about_img_one.jpeg);
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.past_img_two {
+  width: 350px;
+  background-image: url(./assets/images/about_img_two.jpeg);
+  background-size: cover;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.past_title {
+  font-size: 34px;
+  margin: 24px;
+}
+
+.about_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 5%;
+  background-color: #272a31;
+}
+
+.about_footer p {
+  width: 60%;
+  color: #fff;
+}
+
+.about_logo {
+  display: inline-block;
+  width: 30%;
+  height: 34px;
+  background-image: url(./assets/icons/biotech_logo_white.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 40px;
+}
+
+.headline_about {
+  display: none;
+}
+
+.two {
+  display: none;
+}
+
+.about_partners_container {
+  display: none;
+}

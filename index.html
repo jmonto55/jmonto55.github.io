@@ -1,212 +1,119 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta https-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JoseMontoya.com</title>
-    <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 767px)" href="./style.css" />
-    <link rel="stylesheet" type="text/css" media="screen and (min-device-width: 1024px)" href="./style_desktop.css" />
-    <link rel="stylesheet" type="text/css" media="screen and (min-device-width: 768px) and (max-device-width: 1023px)" href="./style_tablet.css" />
-</head>
-<body>
-
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./assets/icons/page_logo.png"  type="image/icon type">
+    <link rel="stylesheet" media="screen and (max-device-width: 768px)" href="./styles_m.css">
+    <link rel="stylesheet" media="screen and (min-device-width: 769px)" href="./styles_d.css">
+    <title>Biotech Summit</title>
+  </head>
+  <body>
     <header>
-        <div class="tool_bar">
-            <div class="logo"><a href="#"><img src="./assets/logo_jose.png" alt="Logo"></a></div>
 
-            <nav class="menu">
-                <a href="#"><img src="./assets/menu_icon.svg" alt="hamburger" class="hamburger"></a>
-                <ul class="nav_list">
-                    <li>Portfolio</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                    <li><a href="#"><i class="email_icon"></i></a></li>
-                </ul>
-            </nav>
+        <div class="above_header">
+            <ul class="above_header_list">
+                <li class="above_list_li"> <i class="fb_icon_above"></i> </li>
+                <li class="above_list_li"> <i class="tt_icon_above"></i> </li>
+                <li class="above_list_li"> <a class="above_list_link" href="">English</a> </li>
+                <li class="above_list_li"> <a class="above_list_link" href="">My Page</a> </li>
+                <li class="above_list_li"> <a class="above_list_link" href="">Logout</a> </li>
+            </ul>
         </div>
+
+        <nav class="nav_var">
+            <a href="#"><figure class="nav_image"></figure></a>
+            <ul class="nav_var_list">
+                <li class="nav_list_li"><a class="nav_list_link" href="about.html">About</a></li>
+                <li class="nav_list_li"><a class="nav_list_link" href="#program">Program</a></li>
+                <li class="nav_list_li"><a class="nav_list_link" href="#speakers">Speakers</a></li>
+                <li class="nav_list_li"><a class="nav_list_link" href="#partners">Sponsors</a></li>
+                <li class="nav_list_li"><a class="nav_list_link register" href="">Register</a></li>
+            </ul>
+        </nav>
     </header>
+    
 
     <main>
-        <!-- Branch 1: Header and Headline -->
-        <section class="headline">
-            
-            <div class="headline_text">
-                <h1>Hey There. <br/> I'm Jose</h1>
-    
-            <h2>I am a Software Developer</h2>
-    
-            <p>I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-                don't hestiate to contact me.
-            </p>
-            </div>
-    
-            <ul class="social_media">
-                <li><a href="#"><i class="fa fa-github"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="#"><i class="fa fa-angelist"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-medium"></i></a></li>
-            </ul>
-        </section>
-        <!-- Branch 2: Work and About me -->
-        <section class="main_middle_section">
-            
-            <div class="main_middle_text">
-                <h3>My Recent Works</h3>
-                <div class="title_line"></div>
-            </div>
-
-            <div class="main_articles_container">
-                <article class="multi_post_card">
-                    <img class="multi_post_image" src="./assets/multi_post_image.svg" alt="stories image">
-                    <img class="multi_post_image_desktop" src="./assets/multi_post_image_desktop.svg" alt="stories image">
-                    <div class="multi_post_text">
-                        <h4>Multi-Post Stories</h4>
-                        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
-                        <ul class="techs_used">
-                            <li>css</li>
-                            <li>html</li>
-                            <li>bootsrap</li>
-                            <li>Ruby</li>
-                        </ul>
-                    <button>See Project</button>
-                    </div>
-                </article>
-
-                <article class="project_card">
-                    <h4>Profesional Art Printing Data</h4>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                    <ul class="techs_used_project">
-                        <li>html</li>
-                        <li>bootsrap</li>
-                        <li>Ruby</li>
-                    </ul>
-                    <button>See Project</button>
-                </article>
-
-                <article class="project_card">
-                    <h4>Profesional Art Printing Data</h4>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                    <ul class="techs_used_project">
-                        <li>html</li>
-                        <li>bootsrap</li>
-                        <li>Ruby</li>
-                    </ul>
-                    <button>See Project</button>
-                </article>
-
-                <article class="project_card">
-                    <h4>Profesional Art Printing Data</h4>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                    <ul class="techs_used_project">
-                        <li>html</li>
-                        <li>bootsrap</li>
-                        <li>Ruby</li>
-                    </ul>
-                    <button>See Project</button>
-                </article>
-
-                <article class="project_card">
-                    <h4>Profesional Art Printing Data</h4>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                    <ul class="techs_used_project">
-                        <li>html</li>
-                        <li>bootsrap</li>
-                        <li>Ruby</li>
-                    </ul>
-                    <button>See Project</button>
-                </article>
-
-                <article class="project_card">
-                    <h4>Profesional Art Printing Data</h4>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                    <ul class="techs_used_project">
-                        <li>html</li>
-                        <li>bootsrap</li>
-                        <li>Ruby</li>
-                    </ul>
-                    <button>See Project</button>
-                </article>
-
-                <article class="project_card">
-                    <h4>Profesional Art Printing Data</h4>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                    <ul class="techs_used_project">
-                        <li>html</li>
-                        <li>bootsrap</li>
-                        <li>Ruby</li>
-                    </ul>
-                    <button>See Project</button>
-                </article>
-                
+        <section class="home_section"  id="home">
+            <nav class="nav_var_mobile">
+                <img class="burger_icon" src="./assets/icons/burger_icon.png" alt="burger menu" href=""></img>
+                <img class="close_icon inactive" src="./assets/icons/x_icon.svg"></img>
+                <ul class="nav_var_list_m inactive">
+                    <li class="nav_list_li_m"><a class="nav_list_link_m nav_li" href="about.html">About</a></li>
+                    <hr class="speaker_line">
+                    <li class="nav_list_li_m"><a class="nav_list_link_p nav_li" href="#program">Program</a></li>
+                    <hr class="speaker_line">
+                    <li class="nav_list_li_m"><a class="nav_list_link_s nav_li" href="#speakers">Speakers</a></li>
+                    <hr class="speaker_line">
+                    <li class="nav_list_li_m"><a class="nav_list_link_pa nav_li" href="#partners">Sponsors</a></li>
+                    <hr class="speaker_line">
+                </ul>
+            </nav>
+            <div class="welcome_container">
+                <h2 class="headline_one">"Hello! Biotech enthusiasts"</h2>
+                <title class="headline_two">WORLD BIOTECHNOLOGY CONFERENCE 2023</title>
+                <p class="headline_text">A casual scientific meeting to discuss the future of the biotechnology field with ponents from more than 27 countries is taking place in October, In New York.</p>
+                <h2 class="headline_date">2023.10.15(THU) ~ 16(FRI)</h2>
+                <p class="headline_site">@ Grand Palace Hotel, Turistic Center New York</p>
             </div>
         </section>
 
-        <section class="about_me_section">
-            <h4>About me</h4>
-            <p>Hello I'm a software developer! I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hestiate to contact me.</p>
-            <button>Get My Resume</button>
-            <div class="title_line_two"></div>
+        <section class="program_section" id="program">
+            <h2 class="progam_section_title">Main Program</h2>
+            <hr class="program_line">
+            <div class="program_container">
+                <div class="program_container_child">
+                    <i class="ponents_icon"></i>
+                    <h3 class="program_title">Ponents</h3>
+                    <p class="program_text">Listen to expert ponents from all over the world speak about state of the art advances in the biotech field.</p>
+                </div>
+                <div class="program_container_child">
+                    <i class="exhibition_icon"></i>
+                    <h3 class="program_title">Exhibition</h3>
+                    <p class="program_text">Visit all the stands from the companies to discover demo technologies and smart investing opportunities.</p>
+                </div>
+                <div class="program_container_child">
+                    <i class="forum_icon"></i>
+                    <h3 class="program_title">Forum</h3>
+                    <p class="program_text">Engage in debates around the most controversial subjects in biotech such as human genome editing.</p>
+                </div>
+                <div class="program_container_child">
+                    <i class="workshop_icon"></i>
+                    <h3 class="program_title">Workshop</h3>
+                    <p class="program_text">Participate in one of our workshop to gain some certified laboratory experience while learning someyhing fun.</p>
+                </div>
+                <div class="program_container_child">
+                    <i class="network_icon"></i>
+                    <h3 class="program_title">Network</h3>
+                    <p class="program_text">Take advantage of this place full of experts in the biotech field, say hi, make new contacts and expand your professional net.</p>
+                </div>
+            </div>
+            <p class="program_section_footer">SEE THE WHOLE PROGRAM</p>
+            <p class="program_section_footer_m">Join Biotech World Summit 2023</p>
         </section>
 
-        <section class="skills_section">
-            <ul><i class="diamond_icon"></i>Languages
-                <li>Javascript</li>
-                <li>Ruby</li>
-                <li>Html</li>
-
-                <li>Css</li>
-            </ul>
-
-            <ul><i class="square_icon"></i>Frameworks
-                <li>Bootstrap</li>
-                <li>Ruby on Rails</li>
-                <li>RSPec</li>
-                <li>CapyBara</li>
-                <li>Selenium</li>
-            </ul>
-
-            <ul><i class="circle_icon"></i>Skills
-                <li>Codekit</li>
-                <li>Github</li>
-                <li>Codepen</li>
-                <li>Gitlab</li>
-                <li>Terminal</li>
-            </ul>
-        </section>
+        <section class="speakers_section" id="speakers"></section>
     </main>
-    <!-- Branch 3: Footer -->
-    <footer>
 
-        <div class="footer_container">
-            <h4>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h4>
-        <form action="https://formspree.io/f/xlevqnwe" method="post"    class="form_container">
-            <ul>
-                <li>
-                    <input type="text" id="name" name="user_name" placeholder="Full name" required maxlength="30"/>
-                </li>
-                <li>
-                    <input type="email" id="mail" name="user_email" placeholder="Email address" required/>
-                </li>
-                <li>
-                    <textarea id="msg" name="user_message" placeholder="Enter text here" required maxlength="500"></textarea>
-                </li>
-                <li class="button">
-                    <button type="submit">Get in touch</button>
-                </li>
-            </ul>
-        </form>
+    <footer id="partners">
+        <div class="partners_container">
+            <h2 class="progam_section_title">Partners</h2>
+            <hr class="program_line">
+            <div class="partners">
+                <img class="partner_one pr" src="./assets/partners/partner_one.png" alt="google logo"></img>
+                <img class="partner_three pr" src="./assets/partners/partner_three.png" alt="foundation logo"></img>
+                <img class="partner_six pr" src="./assets/partners/partner_six.png" alt="bitcoin logo"></img>
+                <img class="partner_two pr" src="./assets/partners/partner_two.png" alt="naver logo"></img>
+                <img class="partner_four pr" src="./assets/partners/partner_four.png" alt="calico logo"></img>
+                <img class="partner_five pr" src="./assets/partners/partner_five.png" alt="airbnb logo"></i>
+            </div>
         </div>
-
-        <ul class="social_media_footer">
-            <li><a href="#"><i class="fo fo-github"></i></a></li>
-            <li><a href="#"><i class="fo fo-linkedin"></i></a></li>
-            <li><a href="#"><i class="fo fo-angelist"></i></a></li>
-            <li><a href="#"><i class="fo fo-twitter"></i></a></li>
-            <li><a href="#"><i class="fo fo-medium"></i></a></li>
-        </ul>
+        <div class="last_footer">
+            <figure class="footer_logo"></figure>
+            <p>2023 World Biotechnology Summit. All Rights Reserved. World Biotechnology Summit is part of a global biotech organization founded by the Metuselah Fund.</p>
+        </div>
     </footer>
-
-</body>
+    <script src="./index.js"></script>
+  </body>
 </html>

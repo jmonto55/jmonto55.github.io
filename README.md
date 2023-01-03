@@ -35,9 +35,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio <a name="about-project"></a>
+# 🔬 Biotech-Conference<a name="about-project"></a>
 
-This project is a portfolio website containing all my professional information and projects.
+This project is a biotechnology conference web where you can see all the information about the event.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -50,6 +50,9 @@ This project is a portfolio website containing all my professional information a
   </ul>
   <ul>
     <li>CSS</li>
+  </ul>
+  <ul>
+    <li>JavaScript</li>
   </ul>
 </details>
 
@@ -71,9 +74,9 @@ This project is a portfolio website containing all my professional information a
 
 ### Key Features <a name="key-features"></a>
 
-- This is the first itertation of my portfolio.
-- It contains my professional information.
-- All my porjects will be displayed in this werbsite.
+- Full responsive Home and About sections.
+- Featured speakers dynamically created using JavaScript.
+- Mobile Menu functionaluity implemented in JavaScript.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -81,7 +84,7 @@ This project is a portfolio website containing all my professional information a
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://jmonto55.github.io/)
+- [Live Demo Link](https://yourdeployedapplicationlink.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,7 +101,7 @@ In order to run this project you need: any functional browser.
 ### Setup
 
 Clone this repository to your desired folder:
-cd my-folder git clone [@jmonto55](https://github.com/jmonto55/Portfolio)
+cd my-folder git clone [@jmonto55](https://github.com/jmonto55/Biotech-Conference-CP1.git)
 
 ### Install
 
@@ -125,9 +128,12 @@ N/A
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Jose**
+👤 **Jose Montoya**
 
-- GitHub: [@jmonto55](https://github.com/jmonto55)
+- GitHub: [@jmonto55](https://github.com/jmonto55) Developer
+
+👤 **Cindy Shin**
+- Behance: [@adagio07](https://www.behance.net/adagio07) Designer
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -135,8 +141,8 @@ N/A
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Next version will have the projects section**
-- [ ] **Next version will have a live demo to my most complex project**
+- [ ] **Next version will have the tickets section**
+- [ ] **Next version will have a live demo to the finished product**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -163,7 +169,7 @@ If you like this project please share it with your contacts.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank Microverse team for the information provided.
+I would like to thank Microverse team for the information provided and [Cindy Shin](https://www.behance.net/adagio07) for the awesome design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -184,4 +190,3 @@ I would like to thank Microverse team for the information provided.
 This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
