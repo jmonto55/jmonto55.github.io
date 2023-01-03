@@ -143,9 +143,9 @@ a {
   display: block;
   -webkit-background-clip: text;
   color: transparent;
-  font-size: 5.2vw;
+  font-size: 6vw;
   font-weight: 900;
-  max-width: 1700px;
+  max-width: 2000px;
 }
 
 .headline_text {
@@ -423,6 +423,8 @@ a {
 }
 
 .about_title {
+  width: 60%;
+  display: block;
   color: #ec5242;
   font-size: 5vw;
   font-weight: 900;

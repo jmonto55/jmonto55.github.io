@@ -414,6 +414,7 @@ a {
 }
 
 .about_title {
+  display: block;
   color: #ec5242;
   font-size: 7vw;
   font-weight: 900;
