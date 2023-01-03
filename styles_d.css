@@ -705,7 +705,7 @@ a {
 
   .program_section {
     width: 100%;
-    max-height: 1200px;
+    height: auto;
     background-image: url(./assets/images/background_program.jpeg);
     padding: 3%;
     display: flex;
